@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="app.js" defer></script>
+    <title>Tic Tac Toe</title>
+  </head>
+  <body>
+    <header>
+      <div id="headline">
+        <h1>Play Tic, Tac, Toe!</h1>
+        <p>
+          Built with HTML, CSS, JavaScript and - of course - lots of love (and
+          tears, sweat)!
+        </p>
+      </div>
+    </header>
+    <main>
+      <section id="init-players">
+        <ul>
+          <li>
+            <div class="player-details">
+              <p>Player 1</p>
+              <h2>Player Name</h2>
+              <p class="icon">X</p>
+              <a href="#">Edit</a>
+            </div>
+          </li>
+          <li>
+            <div class="player-details">
+              <p>Player 2</p>
+              <h2>Player Name</h2>
+              <p class="icon">O</p>
+              <a href="#">Edit</a>
+            </div>
+          </li>
+        </ul>
+        <div class="btn-container">
+          <button class="submit-btn">Start New Game</button>
+        </div>
+      </section>
+      <!-- <section>
+            <div>
+                <form id="overlay">
+                    <h2>Choose your name</h2>
+                    <label for="input-name">Player name</div>
+                    <input type="text" name="input-name" id="input-name">    
+                </form>
+                <div>
+                    <button class="cancel-btn">Cancel</button>
+                    <button class="submit-btn">Confirm</button>  
+                </div>  
+            </div>
+      </section> -->
+      <section id="gameplay">
+        <p>It's your turn <span></span></p>
+        <div class="gamefld-container">
+            <ul id="gamefield">
+                <li class="field" id="1"></li>
+                <li class="field" id="2"></li>
+                <li class="field" id="3"></li>
+                <li class="field" id="4"></li>
+                <li class="field" id="5"></li>
+                <li class="field" id="6"></li>
+                <li class="field" id="7"></li>
+                <li class="field" id="8"></li>
+                <li class="field" id="9"></li>
+            </ul>
+        </div>
+      </section> 
+    </main>
+  </body>
+</html>

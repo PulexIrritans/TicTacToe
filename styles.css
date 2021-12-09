@@ -1,0 +1,134 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+}
+
+header {
+    background-color: rgb(109, 40, 217);
+    height: 10rem;
+    color: white;
+    text-align: center;
+    margin: 0;
+    padding: 2em 0 0 0;
+
+}
+
+main ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    margin: 1rem 0 1rem 0;
+    flex-wrap: wrap;
+}
+
+main li {
+    margin: 0.5rem;
+    background-color: rgb(237, 226, 248);
+    width: 300px;
+    text-align: center;
+    padding: 10px 0 10px 0;
+    border-radius: 4px;
+    box-shadow: 5px 5px 2px rgb(0, 0, 0, 0.2);
+
+}
+
+.player-details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main p {
+    font-weight: bold;
+    margin: 8px 0 8px 0;
+}
+
+.player-details h2 {
+    text-transform: uppercase;
+    color:rgb(86, 5, 218);
+    margin: 8px 0 0 0;
+}
+
+main a {
+    display:block;
+    margin-top: 15px;
+    text-decoration: none;
+    width: 100px;
+    color: rgb(86, 5, 218);
+    padding: 5px;
+    border-radius: 4px;
+
+}
+
+main a:hover {
+    background-color: rgb(188, 165, 224);
+}
+
+main .icon {
+    font-size: 2rem;
+}
+
+.btn-container {
+    display: flex;
+    justify-content: center;
+}
+
+.submit-btn {
+    background-color: rgb(109, 40, 217);
+    color: white;
+    padding: 10px 25px;
+    border-radius: 4px;
+    font-weight: bold;
+    border: none;
+}
+
+.btn-container .submit-btn:hover {
+    cursor: pointer;
+}
+
+.cancel-btn {
+    background-color: rgb(237, 226, 248);
+    color:rgb(109, 40, 217);
+    padding: 10px 25px;
+    border-radius: 4px;
+    font-weight: bold;
+    border: none;
+}
+
+#gameplay {
+    display: none;
+    margin-top: 50px;
+}
+
+#gameplay p {
+    text-align: center;
+}
+
+#gameplay li {
+    width: 10rem;
+    height: 10rem;
+    background-color: rgb(220, 204, 247);
+ 
+}
+
+#gameplay li:hover {
+    background-color: rgb(109, 40, 217);
+}
+
+.gamefld-container {
+   display: flex;
+   justify-content: center;
+}
+
+#gamefield {
+    display: grid;
+    width: 480px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-gap: 5px;
+    align-items: center;
+}
